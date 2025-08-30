@@ -11,6 +11,7 @@ This project breaks down the essential steps of a cloud-native workflow:
 
 ## Project Structure
 
+```
 ├── Dockerfile                  # Instructions to build the Docker image
 ├── .dockerignore               # Files to exclude from the Docker image
 ├── kubernetes/
@@ -18,6 +19,7 @@ This project breaks down the essential steps of a cloud-native workflow:
 │   └── service.yaml            # Defines how to access the application (the "how")
 ├── package.json                # Node.js project metadata and dependencies
 └── server.js                   # The simple Node.js (Express) application
+```
 
 ### Getting Started
 
